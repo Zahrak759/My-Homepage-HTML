@@ -1,0 +1,69 @@
+body {
+  background-image: url("merce2.jpg");
+
+
+   background-position: right middle;
+   background-size: 120%;
+   font-family: sans-serif;
+}
+h1 {
+  text-indent: 220px;
+  color: white;
+
+}
+h4{
+  color: maroon;
+  text-indent: 350px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+h2 {
+  line-height: 0.8;
+  font-style: italic;
+  text-decoration: underline;
+  text-indent: 20px;
+  color: white
+
+}
+
+h3 {
+  line-height: 0.1;
+  color: maroon;
+  text-indent: 70px;
+  font-size: 20px;
+}
+p1 {
+  color: white;
+}
+
+a:link {
+  color: darkgray;
+}
+a:visited {
+  color: skyblue;
+}
+a:hover {
+  color: hotpink;
+}
+
+.tiledBackground {
+  background-image: url("me.jpg");
+  background-size: contain;
+  width: 220px;
+  height: 290px;
+}
+tr:nth-child(even) {
+  color: white;
+  background-color: gray;
+}
+tr:nth-child(odd) {
+  color: white;
+	background-color: maroon;
+}
+p3 {
+  color: white;
+}
+table, th, td {
+  border: 1px solid white;
+}
